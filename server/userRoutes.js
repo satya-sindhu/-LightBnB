@@ -32,6 +32,7 @@ module.exports = function(router, database) {
       return null;
     });
   }
+  
   exports.login = login;
   router.post('/login', (req, res) => {
     const {email, password} = req.body;
