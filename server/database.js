@@ -130,6 +130,7 @@ const getAllProperties = (options, limit = 10) => {
 };
 exports.getAllProperties = getAllProperties;
 
+
 /**
  * Add a property to the database
  * @param {{}} property An object containing all of the property details.
